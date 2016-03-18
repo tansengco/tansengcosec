@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+<title>TANSENGCO & COMPANY, INC.</title>
+<meta name="description" content="Tansengco and Company Website" />
+<meta name="keywords" content="website keywords, website keywords" />
+<meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+<link rel="icon" href="style/tci_logo_fixed.png">
+<link rel="stylesheet" type="text/css" href="style/style.css" title="style" />
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <img src="style/tci_logo_fixed.png" alt="Tansengco Logo" style="width:100px;height:100px; margin-top: 10px; float:left">
+          <div style='float:left; margin-left: 20px;'>
+          <h1><a href="home.html">Tansengco & Company <span class="logo_colour">Inc.</span></a></h1>
+          <h2 style="color: #FFD700">RM208 P DELOS REYES BLDG 222 J LUNA ST, BGY 287, ZONE 027 BINONDO</h2>
+          </div>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <li class="selected"><a href="home.html">Home</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="employees.html">Employees</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+
+    </div>
+    
+    <div id="site_content">
+      <div class="sidebar">
+        <!-- insert your sidebar items here -->
+        <h3>Latest News</h3>
+        <h4>Forex Watchlist</h4>
+        <h5 id="dateTicker"></h5>
+		<script>
+		document.getElementById("dateTicker").innerHTML = Date();
+		</script>
+        <p width="100%" align="center"><iframe width="160" height="137" scrolling="no" frameborder="0" style="border:none;" src="http://widgets.freestockcharts.com/WidgetServer/WatchListWidget.aspx?sym=EUR/USD,USD/JPY,GBP/USD,USD/CAD,AUD/USD&style=WLBlueStyle&w=160"></iframe></p>
+        <p></p>
+        <h4>Newsletter</h4>
+        <p>Latest news around the company.<br /><a href="#">Read more</a></p>
+        <h3>Useful Links and Files</h3>
+        <ul>
+          <li><a href="#">SEC Full Compliance PDF - Test Link</a></li>
+          <li><a href="#">Article 1</a></li>
+          <li><a href="#">Article 2</a></li>
+          <li><a href="#">Article 3</a></li>
+        </ul>
+      </div>
+      <div id="content">
+        <h1>Welcome to TCI!</h1>
+        <img src="style/flr2.png" alt="Stock Exchange" style="width: 550px;">
+        <h1>Philippines Stock Exchange PSEi Index - Forecast</h1>
+        <div class="ieconomics_share" data-tiny="NkaYSRgpe" ><a href="http://ieconomics.com/wall/NkaYSRgpe">ieconomics</a><script type="text/javascript" src="http://cdn.ieconomics.com/cdn/chart/js/share.js?v=_000"></script></div>
+      </div>
+    </div>
+    <div id="content_footer"></div>
+    <div id="footer">
+      <a href="http://www.html5webtemplates.co.uk">Copyright &copy; colour_red</a>
+    </div>
+  </div>
+</body>
+</html>
