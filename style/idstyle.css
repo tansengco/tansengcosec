@@ -1,0 +1,25 @@
+body {
+	font: normal 'trebuchet ms', arial, sans-serif;
+	background: whitesmoke;
+  	color: #CC0000;
+  	width:450px;
+  	height:450px;
+}
+p {
+	font-size: 1.5em;
+}
+ul li {font-size: 1.1em;}
+
+#idHeader {
+	background-color: #A80000;
+	width: 450px;
+	height:30px;
+	float:left;
+}
+
+#idFooter {
+	background-color: #A80000;
+	width: 450px;
+	height:30px;
+	float:left;
+}
